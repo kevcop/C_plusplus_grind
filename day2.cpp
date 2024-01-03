@@ -2,6 +2,8 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <vector>
+#include <cmath>
+#include <list> 
 using namespace std;
 const int total = 10;
 double read_and_sum(int s);
@@ -28,6 +30,16 @@ double read_and_sum(int s);
         return sum;
     }
 int main(){
+    double test2 = 12;
+    double item = 11.89;
+    cout<<floor (item)<<endl;
+    cout<<"This is a test using ternary"<<endl;
+    
+    // for (auto x:items)
+    // {
+    //     cout<<x<<endl;
+    // }
+    
     Vector v(6);
 //     vector<int> myFirstVector;
 //     int test = 0;
@@ -41,7 +53,7 @@ int main(){
 //         cout<<x;
 //     }
 
-    cout<<"Enter some values: "<<read_and_sum(10)<<endl;
+    //cout<<"Enter some values: "<<read_and_sum(10)<<endl;
  }
     // //function from book demonstrating the use of vectors
     // struct Vector{
